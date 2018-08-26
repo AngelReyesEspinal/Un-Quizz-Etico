@@ -1,0 +1,72 @@
+body{
+  background: url(img/Fondo_Inicio.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.titulo{
+  margin-top: 10px;
+  font-size: 50px;
+  text-align: center;
+  font-family:serif;
+  background: white;
+  margin: 50px 200px;
+  opacity: 0.6;
+}
+
+.titulo .letters{
+  color: green;
+  text-shadow: 2px 1px 2px #000;
+}
+
+.formulario{
+  background: white;
+  text-align: center;
+  padding: 15px;
+  margin: 50px 250px;
+  opacity: 0.6;
+}
+
+.formulario .nombre-usuario{
+  color: green;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px #000;
+  text-align: center;
+}
+
+.formulario .input{
+  width:700px;
+  height:30px;
+  text-align: center;
+  font-size: 25px;
+  font-family: serif;
+  text-shadow: 2px 2px 2px green;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.formulario .input:focus{
+  font-size: 26px;
+  font-family: serif;
+  text-shadow: 2px 2px 2px green;
+}
+
+.formulario .btn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.formulario .boton{
+  padding-bottom: 10px;
+}
+
+.formulario .btn:hover{
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    border: 2px  solid green;
+}

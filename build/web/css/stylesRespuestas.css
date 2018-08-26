@@ -1,0 +1,113 @@
+body{
+  background: url(img/Fondo_Rank.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+  font-family: 'Roboto';
+}
+
+.titulo{
+  margin-top: 10px;
+  font-size: 40px;
+  text-align: center;
+  font-family:serif;
+  background: white;
+  margin: 50px 150px;
+  opacity: 0.6;
+  border-radius: 90px 0px 90px 0px;
+}
+
+.titulo .letters{
+  padding: 5px;
+  color: green;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.contenedor{
+  background: white;
+  text-align: center;
+  padding: -12px;
+  margin: 50px 200px;
+  opacity: 0.8;
+}
+
+.contenedor > div{
+  padding: 10px 0;
+}
+
+.tabla-container{
+  color: black;
+  margin: 10px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+table{
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table td{
+  border: 1px solid white;
+  padding: 15px;
+  text-align: center;
+}
+
+thead{
+  background-color: #73C6B6;
+  color: white;
+  font-weight: bold;
+  border-bottom: solid 5px #white;
+}
+
+tr:nth-child(even){
+  background-color: #B4BFC4;
+}
+
+tr:hover {
+  background-color: #73C6B6;
+  color: white;
+}
+
+.contenedor .wrap .main .grupo .label{
+  color: #303F9F;
+  text-align: right;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.contenedor .wrap .main .grupo .label:hover{
+  color: #303F9F;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px gray;
+  text-align: right;
+  font-family: "Roboto";
+  margin-left: 520px;
+}
+
+
+ 
+ .contenedor .enlace
+  {
+    padding-top: 5px;
+    text-align: center;
+    background: #73C6B6;
+    border-radius: 1px;
+    border: 2px solid #f2f2f2;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto";
+    font-size: 16px;
+    padding: 4px;
+    width: 16%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 745px;
+    margin-top: -40px;
+  }
+
+.contenedor .enlace:hover
+  {
+    background: #1976D2;
+  }
